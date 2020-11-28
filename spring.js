@@ -24,7 +24,7 @@ class Spring {
 
   draw (showCenter) {
     stroke(0, 255, 0, 127)
-    strokeWeight((norm(Math.abs(this.distance), 0, this.length) + 1) * 10)
+    strokeWeight((norm(Math.abs(this.distance), 0, this.length) + 1) * 5)
     line(this.a.x, this.a.y, this.b.x, this.b.y)
 
     if (!showCenter) return

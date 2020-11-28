@@ -19,7 +19,7 @@ class Particle extends p5.Vector {
   draw () {
     noStroke()
     fill(0, 0, 255, 127)
-    ellipse(this.x, this.y, this.mass / PI)
+    ellipse(this.x, this.y, this.mass / TAU)
 
     return this
   }

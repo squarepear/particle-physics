@@ -22,7 +22,7 @@ function setup () {
 
     if (a === b) continue
 
-    springs.push(new Spring(a, b, random(150, 300), 0.0001))
+    springs.push(new Spring(a, b, random(150, 300), 2 * Math.pow(10, -5)))
   }
 
   noStroke()

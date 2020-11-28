@@ -13,7 +13,7 @@ class Attractor extends Particle {
   draw () {
     noStroke()
     fill(255, 255, 0, 127)
-    ellipse(this.x, this.y, this.mass / PI)
+    ellipse(this.x, this.y, this.mass / TAU)
 
     return this
   }
