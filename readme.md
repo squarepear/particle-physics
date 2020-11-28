@@ -10,4 +10,4 @@
 
 ## How do I try this?
 
-Visit the [Github pages for this repo](.) or host it yourself!
+Visit the [Github pages for this repo](https://squarepear.github.io/particle-physics/) or host it yourself!
